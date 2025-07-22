@@ -6,7 +6,7 @@ const {
   ProfessionalTraining2,
   FinalYearProject
 } = require('../models');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt.js');
 const jwt = require('jsonwebtoken');
 const path = require('path');
 const { Op } = require('sequelize');

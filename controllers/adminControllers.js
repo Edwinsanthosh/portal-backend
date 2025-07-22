@@ -1,5 +1,5 @@
 const { Student, Mentor,ProfessionalTraining1,ProfessionalTraining2,FinalYearProject, Team, Announcement, sequelize } = require('../models'); // Adjust the path as necessary
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt.js");
 const { Op, Sequelize } = require("sequelize");
 
 // Function to create a new student
