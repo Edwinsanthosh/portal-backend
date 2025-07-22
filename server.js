@@ -31,7 +31,7 @@ models.sequelize.authenticate()
     return models.sequelize.sync(); // Sync models with the database
   })
   .then(() => {
-    app.listen(PORT, '0.0.0.0', () => console.log(`🚀 Server running on port ${PORT}`));
+    app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
   })
   .catch((err) => {
     console.error('❌ Database connection failed:', err);
